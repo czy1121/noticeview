@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+    <com.github.czy1121.view.NoticeView
+        android:id="@+id/notice"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_round"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        app:nvIcon="@mipmap/notice"
+        app:nvIconPadding="5dp"
+        app:nvIconTint="@android:color/white"
+        app:nvTextColor="#FFFFFFFF"
+        app:nvTextGravity="left"
+        app:nvTextSize="14sp"
+        />
+
+    <com.github.czy1121.view.NoticeView
+        android:id="@+id/notice2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_round"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        app:nvInterval="2000"
+        app:nvTextColor="#FFFFFFFF"
+        app:nvTextGravity="center"
+        />
+</LinearLayout>
