@@ -12,7 +12,7 @@ import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
 
-    public static String[] titles = new String[]{
+    public static String[] notices = new String[]{
             "伪装者:胡歌演绎'痞子特工'",
             "无心法师:生死离别!月牙遭虐杀",
             "花千骨:尊上沦为花千骨",
@@ -29,21 +29,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         vNotice = (NoticeView) findViewById(R.id.notice);
-        vNotice.start(Arrays.asList(titles));
+        vNotice.start(Arrays.asList(notices));
         vNotice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, titles[vNotice.getIndex()], Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, notices[vNotice.getIndex()], Toast.LENGTH_SHORT).show();
             }
         });
 
 
         vNotice2 = (NoticeView) findViewById(R.id.notice2);
-        vNotice2.start(Arrays.asList(titles));
+        vNotice2.start(Arrays.asList(notices));
         vNotice2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, titles[vNotice.getIndex()], Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, notices[vNotice.getIndex()], Toast.LENGTH_SHORT).show();
             }
         });
 

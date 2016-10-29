@@ -57,6 +57,19 @@ dependencies {
     />
 ``` 
 
+**Java**
+
+``` 
+vNotice = (NoticeView) findViewById(R.id.notice);
+vNotice.start(Arrays.asList(notices));
+vNotice.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Toast.makeText(MainActivity.this, notices[vNotice.getIndex()], Toast.LENGTH_SHORT).show();
+    }
+});
+```
+
 **属性**
 
 ``` xml  
