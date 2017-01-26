@@ -1,13 +1,13 @@
-package com.github.czy1121.noticeview.demo;
+package ezy.demo.noticeview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.github.czy1121.view.NoticeView;
-
 import java.util.Arrays;
+
+import ezy.ui.view.NoticeView;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {

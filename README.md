@@ -1,6 +1,4 @@
-# NoticeView
- 
-[![](https://jitpack.io/v/czy1121/noticeview.svg)](https://jitpack.io/#czy1121/noticeview)
+# NoticeView [![](https://jitpack.io/v/czy1121/noticeview.svg)](https://jitpack.io/#czy1121/noticeview)
  
 滚动播放的公告控件  
 
@@ -11,12 +9,9 @@
 ``` groovy
 repositories { 
     maven { url "https://jitpack.io" }
-}
-```  
-    
-``` groovy
+} 
 dependencies {
-    compile 'com.github.czy1121:noticeview:1.0.0'
+    compile 'com.github.czy1121:noticeview:1.1.0'
 }
 ```
     
@@ -25,7 +20,7 @@ dependencies {
 **XML**
 
 ``` xml 
-<com.github.czy1121.view.NoticeView
+<ezy.ui.view.NoticeView
     android:id="@+id/notice"
     android:layout_width="match_parent"
     android:layout_height="30dp"
@@ -42,7 +37,7 @@ dependencies {
     app:nvTextSize="14sp"
     />
 
-<com.github.czy1121.view.NoticeView
+<ezy.ui.view.NoticeView
     android:id="@+id/notice2"
     android:layout_width="match_parent"
     android:layout_height="30dp"

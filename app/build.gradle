@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "com.github.czy1121.noticeview.app"
+        applicationId "ezy.demo.noticeview"
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1

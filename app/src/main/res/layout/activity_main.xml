@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="20dp">
-    <com.github.czy1121.view.NoticeView
+    <ezy.ui.view.NoticeView
         android:id="@+id/notice"
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -24,7 +24,7 @@
         app:nvTextSize="14sp"
         />
 
-    <com.github.czy1121.view.NoticeView
+    <ezy.ui.view.NoticeView
         android:id="@+id/notice2"
         android:layout_width="match_parent"
         android:layout_height="30dp"

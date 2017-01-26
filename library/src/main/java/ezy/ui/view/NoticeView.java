@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.czy1121.view;
+package ezy.ui.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -35,11 +35,10 @@ import android.view.animation.TranslateAnimation;
 import android.widget.TextSwitcher;
 import android.widget.TextView;
 
-import com.github.czy1121.noticeview.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import ezy.library.noticeview.R;
 
 
 public class NoticeView extends TextSwitcher {
